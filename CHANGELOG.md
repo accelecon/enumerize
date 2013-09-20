@@ -1,3 +1,13 @@
+## master ##
+
+### enhancements
+  * Integration with SimpleForm's `input_field` (by [@nashby](https://github.com/nashby))
+
+### bug fix
+  * Return proper RSpec failure message for enumerized attribute with default value (by [@nashby](https://github.com/nashby))
+  * Return proper RSpec description for enumerized attribute without default value (by [@andreygerasimchuk](https://github.com/andreygerasimchuk))
+  * Do not try to set default value for not selected attributes (by [@nashby](https://github.com/nashby))
+
 ## 0.7.0 (August 21, 2013) ##
 
 ### enhancements
@@ -22,7 +32,7 @@
 
 ### enhancements
   * Use inclusion error message for invalid values (by [@lest](https://github.com/lest))
-  * Add `:only` and `except` options to the `Attribute#options` method. (by [@thehappycoder](https://github.com/thehappycoder))
+  * Add `:only` and `except` options to the `Attribute#options` method. (by [@thehappycoder](https://github.com/thehappycoder) and [@randoum](https://github.com/randoum))
   * ActiveRecord scopes. (by [@lest](https://github.com/lest), [@banyan](https://github.com/banyan) and [@nashby](https://github.com/nashby))
   * Support for RailsAdmin (by [@drewda](https://github.com/drewda))
 
